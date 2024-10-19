@@ -9,6 +9,7 @@ class employee {
     public:
     // this sozcugunu constructorlarda da kullanabiliriz.
         void setName(string name) {
+            // attribute isimleri parametre ile ayni ise this kullanmaliyiz.
             this -> name = name;
         }
         void setSalary(int salary) {
